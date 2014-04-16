@@ -3523,6 +3523,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/discography.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/discography.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/foundation_index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3544,6 +3553,61 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/propaganda\/full\/1622.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83462,
+		"inputAbbreviatedPath": "\/img\/propaganda\/full\/1622.jpg",
+		"outputAbbreviatedPath": "\/img\/propaganda\/full\/1622.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/propaganda\/full\/DVDSlipcase2-500x335.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52664,
+		"inputAbbreviatedPath": "\/img\/propaganda\/full\/DVDSlipcase2-500x335.jpg",
+		"outputAbbreviatedPath": "\/img\/propaganda\/full\/DVDSlipcase2-500x335.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/propaganda\/full\/junkmailrevenge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95746,
+		"inputAbbreviatedPath": "\/img\/propaganda\/full\/junkmailrevenge.jpg",
+		"outputAbbreviatedPath": "\/img\/propaganda\/full\/junkmailrevenge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/propaganda\/full\/musicsamplercdface-500x500.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35930,
+		"inputAbbreviatedPath": "\/img\/propaganda\/full\/musicsamplercdface-500x500.jpg",
+		"outputAbbreviatedPath": "\/img\/propaganda\/full\/musicsamplercdface-500x500.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/propaganda\/full\/propagandadvdcover-500x337.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70676,
+		"inputAbbreviatedPath": "\/img\/propaganda\/full\/propagandadvdcover-500x337.jpg",
+		"outputAbbreviatedPath": "\/img\/propaganda\/full\/propagandadvdcover-500x337.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3563,6 +3627,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/propaganda.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/propaganda.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/scss\/_settings.scss": {
 		"createSourceMap": 0,
