@@ -1,3 +1,19 @@
 body {
 	@include container;
 }
+
+/*****************************************************************
+						AUDIO TRANSMISSIONS 
+*****************************************************************/
+
+.audio_list {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+audio {
+	width: 100%;
+	@media #{$small-only} {
+		width: 97%;
+	}
+}

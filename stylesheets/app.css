@@ -7802,3 +7802,23 @@ body::after {
   display: block;
   clear: both;
 }
+
+/*****************************************************************
+						AUDIO TRANSMISSIONS 
+*****************************************************************/
+/* line 9, ../scss/main.scss */
+.audio_list {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+/* line 14, ../scss/main.scss */
+audio {
+  width: 100%;
+}
+@media only screen and (max-width: 40em) {
+  /* line 14, ../scss/main.scss */
+  audio {
+    width: 97%;
+  }
+}
