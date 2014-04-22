@@ -7790,35 +7790,57 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 1, ../scss/main.scss */
-body {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.1/sass/susy/output/support/_clearfix.scss */
-body::after {
-  content: " ";
-  display: block;
-  clear: both;
+/*****************************************************************
+						GLOBAL STYLES 
+*****************************************************************/
+/* line 5, ../scss/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Limelight', Helvetica, Arial, sans-serif;
 }
 
 /*****************************************************************
 						AUDIO TRANSMISSIONS 
 *****************************************************************/
-/* line 9, ../scss/main.scss */
+/* line 13, ../scss/main.scss */
 .audio_list {
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 14, ../scss/main.scss */
+/* line 18, ../scss/main.scss */
 audio {
   width: 100%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 14, ../scss/main.scss */
+  /* line 18, ../scss/main.scss */
   audio {
     width: 97%;
   }
+}
+
+/*****************************************************************
+						ENLISTMENT FORM 
+*****************************************************************/
+/* line 35, ../scss/main.scss */
+.required:after {
+  content: " *";
+}
+
+/* line 40, ../scss/main.scss */
+input[type=radio] {
+  display: none;
+}
+
+/* line 44, ../scss/main.scss */
+input[type=radio] + label img {
+  display: block;
+  max-width: 100%;
+  opacity: .5;
+}
+
+/* line 49, ../scss/main.scss */
+input[type=radio]:checked + label img {
+  display: block;
+  max-width: 100%;
+  opacity: 1;
 }
