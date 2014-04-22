@@ -29,6 +29,15 @@ audio {
 @mixin divisions {
 	display: block;
 	max-width: 100%;
+	border-radius: 0.25em;
+}
+
+form .row {
+	padding-top: 2em;
+}
+
+form .row .row {
+	padding-top: 0;
 }
 
 .required {
@@ -37,37 +46,24 @@ audio {
 	}
 }
 
+.division_title {
+	display: block;
+	text-align: center;
+}
+
 input[type=radio] {
     display:none;
 }
 
 input[type=radio] +label img {
 	@include divisions;
-	opacity: .5;
+	opacity: 0.5;
 }
 
 input[type=radio]:checked +label img {
 	@include divisions;
 	opacity: 1;
 }
- 
-input[type=radio] + label {
-   // background: red;
-   // height: 200px;
-   // width: 200px;
-   // display:inline-block;
-   // padding: 0 0 0 0px;
-}
-
-input[type=radio]:checked + label
-{
-    // background: magenta;
-    // height: 200px;
-    // width: 200px;
-    // display:inline-block;
-    // padding: 0 0 0 0px;
-}
-
 
 
 

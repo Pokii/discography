@@ -7822,25 +7822,43 @@ audio {
 						ENLISTMENT FORM 
 *****************************************************************/
 /* line 35, ../scss/main.scss */
+form .row {
+  padding-top: 2em;
+}
+
+/* line 39, ../scss/main.scss */
+form .row .row {
+  padding-top: 0;
+}
+
+/* line 44, ../scss/main.scss */
 .required:after {
   content: " *";
 }
 
-/* line 40, ../scss/main.scss */
+/* line 49, ../scss/main.scss */
+.division_title {
+  display: block;
+  text-align: center;
+}
+
+/* line 54, ../scss/main.scss */
 input[type=radio] {
   display: none;
 }
 
-/* line 44, ../scss/main.scss */
+/* line 58, ../scss/main.scss */
 input[type=radio] + label img {
   display: block;
   max-width: 100%;
-  opacity: .5;
+  border-radius: 0.25em;
+  opacity: 0.5;
 }
 
-/* line 49, ../scss/main.scss */
+/* line 63, ../scss/main.scss */
 input[type=radio]:checked + label img {
   display: block;
   max-width: 100%;
+  border-radius: 0.25em;
   opacity: 1;
 }
