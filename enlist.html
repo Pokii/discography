@@ -81,8 +81,15 @@
                 <article class="main-content row">
                     <h2>Let's build a Utopian Playground. Enlist Today!</h2>
 
+                    <p>
+                        Greetings, soldier! Do you have a passion for the work and teachings of Dr. Steel? Do you want to keep up to date with the events of the Army of Toy Soldiers, and help the cause? Then look no further! Sign up below to subscribe yourself to our news letter and join our great cause to make the world more fun!
+                    </p>
+                    <p>
+                        For a limited time, give us your address and receive a set of free stickers and make your allegiance known!
+                    </p>
+
                     <!-- ENLISTMENT FORM -->
-                    <form>
+                    <form id="enlist_form" action="success.html" method="get" autocomplete="on">
                         <!-- NAME, EMAIL, ADDRESS ROW -->
                         <div class="row">
                             <!-- NAME, EMAIL -->
@@ -153,10 +160,11 @@
                                     </label>
                                 </div>
                                 <!-- STATE -->
-                                <div class="small-7 columns">
+                                <div class="small-8 columns">
                                     <div class="row collapse">
                                         <label>State
-                                            <select>
+                                            <select name="state">
+                                                <option value="select your state" selected disabled>Select your state</option>
                                                 <option value="AL">Alabama</option>
                                                 <option value="AK">Alaska</option>
                                                 <option value="AZ">Arizona</option>
@@ -219,7 +227,7 @@
                                     </div>
                                 </div>
                                 <!-- ZIP -->
-                                <div class="small-5 columns">
+                                <div class="small-4 columns">
                                     <label>Zip
                                         <input type="text" />
                                     </label>
@@ -229,13 +237,15 @@
                         </div>
                         <!-- END NAME, EMAIL, ADDRESS ROW -->
 
-                        <!-- DIVISION ROW -->
+                        <!-- DIVISION, COMMENTS ROW -->
                         <div class="row">
-                            <div class="large-5 columns">
+                            <!-- DIVISION -->
+                            <div class="large-6 columns">
                                 <label>
                                     <span class="required">Choose your division</span>
                                 </label>
                                 <div class="row collapse">
+                                    <!-- NURSE -->
                                     <div class="small-6 columns">
                                         <input type="radio" name="division" value="nurse" id="nurse" />
                                         <label for="nurse">
@@ -243,6 +253,7 @@
                                             <img src="img/nurse.png" alt="Nurse">
                                         </label>
                                     </div>
+                                    <!-- SCOUT -->
                                     <div class="small-6 columns">
                                         <input type="radio" name="division" value="scout" id="scout" />
                                         <label for="scout">
@@ -252,14 +263,26 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="large-7 columns">
+                            <!-- END DIVISION -->
+
+                            <!-- COMMENTS -->
+                            <div class="large-6 columns">
                                 <label>
-                                    Text Area
-                                    <textarea name="textarea" id="textarea" cols="30" rows="11"></textarea>
+                                    Comments
+                                    <textarea name="comments" id="comments" cols="30" rows="13"></textarea>
                                 </label>
                             </div>
+                            <!-- END COMMENTS -->
                         </div>
-                        <!-- END DIVISION ROW -->
+                        <!-- END DIVISION, COMMENTS ROW -->
+
+                        <!-- SUBMIT ROW -->
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <button type="submit" id="enlist_button">Enlist me now!</button>
+                            </div>
+                        </div>
+                        <!-- END SUBMIT ROW -->
                     </form>
                     <!-- END ENLISTMENT FORM -->
 

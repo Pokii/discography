@@ -7862,3 +7862,9 @@ input[type=radio]:checked + label img {
   border-radius: 0.25em;
   opacity: 1;
 }
+
+/* line 72, ../scss/main.scss */
+#enlist_button {
+  display: block;
+  margin: 0 auto;
+}
