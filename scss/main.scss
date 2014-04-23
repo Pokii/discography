@@ -1,9 +1,20 @@
 /*****************************************************************
+							MIXINS 
+*****************************************************************/
+
+@mixin divisions {
+	display: block;
+	max-width: 100%;
+	border-radius: 0.25em;
+}
+
+/*****************************************************************
 						GLOBAL STYLES 
 *****************************************************************/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Limelight', Helvetica, Arial, sans-serif;
+	font-family: 'Market Deco', Helvetica, Arial, sans-serif;
+	font-variant: small-caps;
 }
 
 /*****************************************************************
@@ -25,12 +36,6 @@ audio {
 /*****************************************************************
 						ENLISTMENT FORM 
 *****************************************************************/
-
-@mixin divisions {
-	display: block;
-	max-width: 100%;
-	border-radius: 0.25em;
-}
 
 form .row {
 	padding-top: 2em;

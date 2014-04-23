@@ -5819,6 +5819,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/dr_steel_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105884,
+		"inputAbbreviatedPath": "\/img\/dr_steel_logo.png",
+		"outputAbbreviatedPath": "\/img\/dr_steel_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/DRUSteelUsticker_page.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5826,17 +5837,6 @@
 		"initialSize": 811638,
 		"inputAbbreviatedPath": "\/img\/DRUSteelUsticker_page.jpg",
 		"outputAbbreviatedPath": "\/img\/DRUSteelUsticker_page.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/nurse.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 33668,
-		"inputAbbreviatedPath": "\/img\/nurse.jpg",
-		"outputAbbreviatedPath": "\/img\/nurse.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6332,17 +6332,6 @@
 		"initialSize": 51320,
 		"inputAbbreviatedPath": "\/img\/propaganda\/thumb\/propagandadvdcover_thumb.jpg",
 		"outputAbbreviatedPath": "\/img\/propaganda\/thumb\/propagandadvdcover_thumb.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/scout.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 33848,
-		"inputAbbreviatedPath": "\/img\/scout.jpg",
-		"outputAbbreviatedPath": "\/img\/scout.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

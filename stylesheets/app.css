@@ -7791,28 +7791,32 @@ th.hide-for-touch {
 }
 
 /*****************************************************************
+							MIXINS 
+*****************************************************************/
+/*****************************************************************
 						GLOBAL STYLES 
 *****************************************************************/
-/* line 5, ../scss/main.scss */
+/* line 15, ../scss/main.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Limelight', Helvetica, Arial, sans-serif;
+  font-family: 'Market Deco', Helvetica, Arial, sans-serif;
+  font-variant: small-caps;
 }
 
 /*****************************************************************
 						AUDIO TRANSMISSIONS 
 *****************************************************************/
-/* line 13, ../scss/main.scss */
+/* line 24, ../scss/main.scss */
 .audio_list {
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 18, ../scss/main.scss */
+/* line 29, ../scss/main.scss */
 audio {
   width: 100%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 18, ../scss/main.scss */
+  /* line 29, ../scss/main.scss */
   audio {
     width: 97%;
   }
@@ -7821,33 +7825,33 @@ audio {
 /*****************************************************************
 						ENLISTMENT FORM 
 *****************************************************************/
-/* line 35, ../scss/main.scss */
+/* line 40, ../scss/main.scss */
 form .row {
   padding-top: 2em;
 }
 
-/* line 39, ../scss/main.scss */
+/* line 44, ../scss/main.scss */
 form .row .row {
   padding-top: 0;
 }
 
-/* line 44, ../scss/main.scss */
+/* line 49, ../scss/main.scss */
 .required:after {
   content: " *";
 }
 
-/* line 49, ../scss/main.scss */
+/* line 54, ../scss/main.scss */
 .division_title {
   display: block;
   text-align: center;
 }
 
-/* line 54, ../scss/main.scss */
+/* line 59, ../scss/main.scss */
 input[type=radio] {
   display: none;
 }
 
-/* line 58, ../scss/main.scss */
+/* line 63, ../scss/main.scss */
 input[type=radio] + label img {
   display: block;
   max-width: 100%;
@@ -7855,7 +7859,7 @@ input[type=radio] + label img {
   opacity: 0.5;
 }
 
-/* line 63, ../scss/main.scss */
+/* line 68, ../scss/main.scss */
 input[type=radio]:checked + label img {
   display: block;
   max-width: 100%;
@@ -7863,7 +7867,7 @@ input[type=radio]:checked + label img {
   opacity: 1;
 }
 
-/* line 72, ../scss/main.scss */
+/* line 77, ../scss/main.scss */
 #enlist_button {
   display: block;
   margin: 0 auto;
