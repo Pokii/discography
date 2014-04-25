@@ -7796,18 +7796,44 @@ th.hide-for-touch {
 /*****************************************************************
 						GLOBAL STYLES 
 *****************************************************************/
+/* line 15, ../scss/main.scss */
+h2 {
+  margin: 1em 0;
+}
+
+/* line 19, ../scss/main.scss */
+h3 {
+  margin: 1.5em 0 0.5em 0;
+}
+
+/* line 23, ../scss/main.scss */
+.main-content {
+  padding: 1em;
+}
+
 /*****************************************************************
 						DISCOGRAPHY
 *****************************************************************/
+/* line 31, ../scss/main.scss */
+.album_title {
+  margin: 0.5em 0 1em 0;
+}
+@media only screen and (max-width: 40em) {
+  /* line 31, ../scss/main.scss */
+  .album_title {
+    text-align: center;
+  }
+}
 @media only screen and (min-width: 40.063em) {
-  /* line 21, ../scss/main.scss */
+  /* line 31, ../scss/main.scss */
   .album_title {
     position: relative;
     right: 2.5%;
+    margin: 0 0 1em 0;
   }
 }
 
-/* line 28, ../scss/main.scss */
+/* line 43, ../scss/main.scss */
 .track_list {
   margin-top: 1em;
 }
@@ -7815,53 +7841,66 @@ th.hide-for-touch {
 /*****************************************************************
 						AUDIO TRANSMISSIONS 
 *****************************************************************/
-/* line 36, ../scss/main.scss */
+/* line 51, ../scss/main.scss */
 .audio_list {
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 41, ../scss/main.scss */
+/* line 56, ../scss/main.scss */
 audio {
   width: 100%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 41, ../scss/main.scss */
+  /* line 56, ../scss/main.scss */
   audio {
     width: 97%;
   }
 }
 
 /*****************************************************************
+						VIDEO TRANSMISSIONS 
+*****************************************************************/
+/* line 68, ../scss/main.scss */
+#video_transmissions p {
+  margin-bottom: 2em;
+}
+/* line 71, ../scss/main.scss */
+#video_transmissions h3 {
+  margin: 0.5em 0 1em 0;
+  text-align: center;
+}
+
+/*****************************************************************
 						ENLISTMENT FORM 
 *****************************************************************/
-/* line 52, ../scss/main.scss */
+/* line 81, ../scss/main.scss */
 form .row {
   padding-top: 2em;
 }
 
-/* line 56, ../scss/main.scss */
+/* line 85, ../scss/main.scss */
 form .row .row {
   padding-top: 0;
 }
 
-/* line 61, ../scss/main.scss */
+/* line 90, ../scss/main.scss */
 .required:after {
   content: " *";
 }
 
-/* line 66, ../scss/main.scss */
+/* line 95, ../scss/main.scss */
 .division_title {
   display: block;
   text-align: center;
 }
 
-/* line 71, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 input[type=radio] {
   display: none;
 }
 
-/* line 75, ../scss/main.scss */
+/* line 104, ../scss/main.scss */
 input[type=radio] + label img {
   display: block;
   max-width: 100%;
@@ -7869,7 +7908,7 @@ input[type=radio] + label img {
   opacity: 0.5;
 }
 
-/* line 80, ../scss/main.scss */
+/* line 109, ../scss/main.scss */
 input[type=radio]:checked + label img {
   display: block;
   max-width: 100%;
@@ -7877,7 +7916,7 @@ input[type=radio]:checked + label img {
   opacity: 1;
 }
 
-/* line 89, ../scss/main.scss */
+/* line 118, ../scss/main.scss */
 #enlist_button {
   display: block;
   margin: 0 auto;

@@ -12,16 +12,31 @@
 						GLOBAL STYLES 
 *****************************************************************/
 
+h2 {
+	margin: 1em 0;
+}
 
+h3 {
+	margin: 1.5em 0 0.5em 0;
+}
+
+.main-content {
+	padding: 1em;
+}
 
 /*****************************************************************
 						DISCOGRAPHY
 *****************************************************************/
 
 .album_title {
+	margin: 0.5em 0 1em 0;
+	@media #{$small-only} {
+		text-align: center;
+	}
 	@media #{$medium-up} {
 		position: relative;
 		right: 2.5%;
+		margin: 0 0 1em 0;
 	}
 }
 
@@ -42,6 +57,20 @@ audio {
 	width: 100%;
 	@media #{$small-only} {
 		width: 97%;
+	}
+}
+
+/*****************************************************************
+						VIDEO TRANSMISSIONS 
+*****************************************************************/
+
+#video_transmissions {
+	p {
+		margin-bottom: 2em;
+	}
+	h3 {
+		margin: 0.5em 0 1em 0;
+		text-align: center;
 	}
 }
 
