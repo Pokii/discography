@@ -6075,7 +6075,7 @@ meta.foundation-mq-topbar {
 }
 /* line 336, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
-  background: #272727;
+  background: #333333;
   color: white;
 }
 /* line 343, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6259,7 +6259,7 @@ meta.foundation-mq-topbar {
   }
   /* line 475, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
-    background: #272727;
+    background: #333333;
     color: white;
   }
   /* line 481, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6270,7 +6270,7 @@ meta.foundation-mq-topbar {
   }
   /* line 485, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: #272727;
+    background: #333333;
   }
   /* line 489, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -6354,7 +6354,7 @@ meta.foundation-mq-topbar {
   /* line 560, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
     color: white;
-    background: #272727;
+    background: #333333;
   }
   /* line 565, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li label {
@@ -6402,7 +6402,7 @@ meta.foundation-mq-topbar {
 
   /* line 618, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background: #272727;
+    background: #333333;
     color: white;
   }
   /* line 624, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6721,7 +6721,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-style: normal;
   color: white;
-  text-rendering: auto;
+  text-rendering: optimizePrecision;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4;
@@ -7797,20 +7797,36 @@ th.hide-for-touch {
 						GLOBAL STYLES 
 *****************************************************************/
 /*****************************************************************
+						DISCOGRAPHY
+*****************************************************************/
+@media only screen and (min-width: 40.063em) {
+  /* line 21, ../scss/main.scss */
+  .album_title {
+    position: relative;
+    right: 2.5%;
+  }
+}
+
+/* line 28, ../scss/main.scss */
+.track_list {
+  margin-top: 1em;
+}
+
+/*****************************************************************
 						AUDIO TRANSMISSIONS 
 *****************************************************************/
-/* line 21, ../scss/main.scss */
+/* line 36, ../scss/main.scss */
 .audio_list {
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 26, ../scss/main.scss */
+/* line 41, ../scss/main.scss */
 audio {
   width: 100%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 26, ../scss/main.scss */
+  /* line 41, ../scss/main.scss */
   audio {
     width: 97%;
   }
@@ -7819,33 +7835,33 @@ audio {
 /*****************************************************************
 						ENLISTMENT FORM 
 *****************************************************************/
-/* line 37, ../scss/main.scss */
+/* line 52, ../scss/main.scss */
 form .row {
   padding-top: 2em;
 }
 
-/* line 41, ../scss/main.scss */
+/* line 56, ../scss/main.scss */
 form .row .row {
   padding-top: 0;
 }
 
-/* line 46, ../scss/main.scss */
+/* line 61, ../scss/main.scss */
 .required:after {
   content: " *";
 }
 
-/* line 51, ../scss/main.scss */
+/* line 66, ../scss/main.scss */
 .division_title {
   display: block;
   text-align: center;
 }
 
-/* line 56, ../scss/main.scss */
+/* line 71, ../scss/main.scss */
 input[type=radio] {
   display: none;
 }
 
-/* line 60, ../scss/main.scss */
+/* line 75, ../scss/main.scss */
 input[type=radio] + label img {
   display: block;
   max-width: 100%;
@@ -7853,7 +7869,7 @@ input[type=radio] + label img {
   opacity: 0.5;
 }
 
-/* line 65, ../scss/main.scss */
+/* line 80, ../scss/main.scss */
 input[type=radio]:checked + label img {
   display: block;
   max-width: 100%;
@@ -7861,7 +7877,7 @@ input[type=radio]:checked + label img {
   opacity: 1;
 }
 
-/* line 74, ../scss/main.scss */
+/* line 89, ../scss/main.scss */
 #enlist_button {
   display: block;
   margin: 0 auto;

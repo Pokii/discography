@@ -134,7 +134,7 @@ $primary-color: #C00808;
 
 $header-font-color: #FFF;
 $header-font-family: "Market Deco", Helvetica, Arial, sans-serif;
-$header-text-rendering: auto;
+$header-text-rendering: optimizePrecision;
 
 // We use these to control header font sizes
 // $h1-font-size: rem-calc(44);
@@ -1234,6 +1234,8 @@ $topbar-bg-color: #000;
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: $topbar-height / 3;
+
+$topbar-link-bg-hover: #333;
 
 // $topbar-button-font-size: 0.75rem;
 // $topbar-button-top: 7px;
