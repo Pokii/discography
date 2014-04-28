@@ -5874,6 +5874,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/hero_banner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84343,
+		"inputAbbreviatedPath": "\/img\/hero_banner.png",
+		"outputAbbreviatedPath": "\/img\/hero_banner.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/nurse.png": {
 		"fileType": 32768,
 		"ignore": 0,
