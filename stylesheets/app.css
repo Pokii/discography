@@ -7848,31 +7848,39 @@ h3 {
 }
 
 /*****************************************************************
-						DISCOGRAPHY
+							HOME
 *****************************************************************/
 /* line 70, ../scss/main.scss */
+.home-image {
+  margin: 0 1.5em 0.5em 0;
+}
+
+/*****************************************************************
+						DISCOGRAPHY
+*****************************************************************/
+/* line 78, ../scss/main.scss */
 .album_title {
   margin: 0.5em 0 1em 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 70, ../scss/main.scss */
+  /* line 78, ../scss/main.scss */
   .album_title {
     text-align: center;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 70, ../scss/main.scss */
+  /* line 78, ../scss/main.scss */
   .album_title {
     margin: 0 0 1em 0;
   }
 }
 
-/* line 80, ../scss/main.scss */
+/* line 88, ../scss/main.scss */
 .track_list {
   margin-top: 1em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 80, ../scss/main.scss */
+  /* line 88, ../scss/main.scss */
   .track_list {
     margin-top: 0;
   }
@@ -7881,18 +7889,18 @@ h3 {
 /*****************************************************************
 						AUDIO TRANSMISSIONS 
 *****************************************************************/
-/* line 91, ../scss/main.scss */
+/* line 99, ../scss/main.scss */
 .audio_list {
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 96, ../scss/main.scss */
+/* line 104, ../scss/main.scss */
 audio {
   width: 100%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 96, ../scss/main.scss */
+  /* line 104, ../scss/main.scss */
   audio {
     width: 97%;
   }
@@ -7901,11 +7909,11 @@ audio {
 /*****************************************************************
 						VIDEO TRANSMISSIONS 
 *****************************************************************/
-/* line 108, ../scss/main.scss */
+/* line 116, ../scss/main.scss */
 #video_transmissions p {
   margin-bottom: 2em;
 }
-/* line 111, ../scss/main.scss */
+/* line 119, ../scss/main.scss */
 #video_transmissions h3 {
   margin: 0.5em 0 1em 0;
   text-align: center;
@@ -7914,34 +7922,34 @@ audio {
 /*****************************************************************
 						ENLISTMENT FORM 
 *****************************************************************/
-/* line 121, ../scss/main.scss */
+/* line 129, ../scss/main.scss */
 form .row {
   padding-top: 2em;
 }
 
-/* line 125, ../scss/main.scss */
+/* line 133, ../scss/main.scss */
 form .row .row {
   padding-top: 0;
 }
 
-/* line 130, ../scss/main.scss */
+/* line 138, ../scss/main.scss */
 .required:after {
   content: " *";
   color: #c00808;
 }
 
-/* line 139, ../scss/main.scss */
+/* line 147, ../scss/main.scss */
 .division_title {
   display: block;
   text-align: center;
 }
 
-/* line 144, ../scss/main.scss */
+/* line 152, ../scss/main.scss */
 input[type=radio] {
   display: none;
 }
 
-/* line 148, ../scss/main.scss */
+/* line 156, ../scss/main.scss */
 input[type=radio] + label img {
   display: block;
   max-width: 100%;
@@ -7949,7 +7957,7 @@ input[type=radio] + label img {
   opacity: 0.5;
 }
 
-/* line 153, ../scss/main.scss */
+/* line 161, ../scss/main.scss */
 input[type=radio]:checked + label img {
   display: block;
   max-width: 100%;
@@ -7957,7 +7965,7 @@ input[type=radio]:checked + label img {
   opacity: 1;
 }
 
-/* line 162, ../scss/main.scss */
+/* line 170, ../scss/main.scss */
 #enlist_button {
   display: block;
   margin: 0 auto;
