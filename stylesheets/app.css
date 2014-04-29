@@ -7807,7 +7807,7 @@ th.hide-for-touch {
 /*****************************************************************
 					OFF-CANVAS NAVIGATION 
 *****************************************************************/
-/* line 44, ../scss/main.scss */
+/* line 46, ../scss/main.scss */
 i {
   margin-right: .5em;
   font-size: 1.5em;
@@ -7816,39 +7816,39 @@ i {
 /*****************************************************************
 						GLOBAL STYLES 
 *****************************************************************/
-/* line 53, ../scss/main.scss */
+/* line 55, ../scss/main.scss */
 h2 {
   margin: 1em 0;
 }
-/* line 55, ../scss/main.scss */
+/* line 57, ../scss/main.scss */
 h2:first-of-type {
   margin-top: 0;
 }
 
-/* line 60, ../scss/main.scss */
+/* line 62, ../scss/main.scss */
 h3 {
   margin: 1.5em 0 0.5em 0;
 }
 
-/* line 65, ../scss/main.scss */
+/* line 67, ../scss/main.scss */
 .hero-banner img {
   display: block;
   margin: 0 auto;
   padding: 3% 10%;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 65, ../scss/main.scss */
+  /* line 67, ../scss/main.scss */
   .hero-banner img {
     margin-top: 2em;
   }
 }
 
-/* line 75, ../scss/main.scss */
+/* line 77, ../scss/main.scss */
 .main-content {
   padding: 1em;
 }
 
-/* line 79, ../scss/main.scss */
+/* line 81, ../scss/main.scss */
 .tabs-content h2 {
   margin-top: 1em;
 }
@@ -7856,51 +7856,97 @@ h3 {
 /*****************************************************************
 							HOME
 *****************************************************************/
-/* line 87, ../scss/main.scss */
+/* line 89, ../scss/main.scss */
 .home-img-sm {
+  float: none;
   display: block;
   margin: 1em auto;
+}
+
+/* line 93, ../scss/main.scss */
+.home-img-md {
+  float: left;
+  margin: 0 2em 0.5em 0;
 }
 
 /*****************************************************************
 							ABOUT
 *****************************************************************/
-/* line 100, ../scss/main.scss */
-.dr-steel {
-  height: 300px;
+/* line 101, ../scss/main.scss */
+.dr-steel-sm {
+  float: left;
+  margin: 0 2em 0.5em 0;
+  max-width: 50%;
 }
 
-/* line 109, ../scss/main.scss */
+/* line 106, ../scss/main.scss */
+.dr-steel-md {
+  float: left;
+  margin: 0 2em 0.5em 0;
+  max-width: 40%;
+}
+
+/* line 111, ../scss/main.scss */
+.tsu-logo {
+  float: none;
+  display: block;
+  margin: 1em auto;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 111, ../scss/main.scss */
+  .tsu-logo {
+    float: left;
+    margin: 0 2em 0.5em 0;
+  }
+}
+
+/* line 118, ../scss/main.scss */
 .nurse-image {
   height: 300px;
+  float: left;
+  margin: 0 2em 0.5em 0;
+}
+
+/* line 123, ../scss/main.scss */
+.propaganda {
+  float: right;
+  margin: 0 0 0.5em 1.5em;
+}
+@media only screen and (max-width: 40em) {
+  /* line 123, ../scss/main.scss */
+  .propaganda {
+    float: none;
+    display: block;
+    margin: 1em auto;
+  }
 }
 
 /*****************************************************************
 						DISCOGRAPHY
 *****************************************************************/
-/* line 122, ../scss/main.scss */
+/* line 134, ../scss/main.scss */
 .album_title {
   margin: 0.5em 0 1em 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 122, ../scss/main.scss */
+  /* line 134, ../scss/main.scss */
   .album_title {
     text-align: center;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 122, ../scss/main.scss */
+  /* line 134, ../scss/main.scss */
   .album_title {
     margin: 0 0 1em 0;
   }
 }
 
-/* line 132, ../scss/main.scss */
+/* line 144, ../scss/main.scss */
 .track_list {
   margin-top: 1em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 132, ../scss/main.scss */
+  /* line 144, ../scss/main.scss */
   .track_list {
     margin-top: 0;
   }
@@ -7909,18 +7955,18 @@ h3 {
 /*****************************************************************
 						AUDIO TRANSMISSIONS 
 *****************************************************************/
-/* line 143, ../scss/main.scss */
+/* line 155, ../scss/main.scss */
 .audio_list {
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 148, ../scss/main.scss */
+/* line 160, ../scss/main.scss */
 audio {
   width: 100%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 148, ../scss/main.scss */
+  /* line 160, ../scss/main.scss */
   audio {
     width: 97%;
   }
@@ -7929,11 +7975,11 @@ audio {
 /*****************************************************************
 						VIDEO TRANSMISSIONS 
 *****************************************************************/
-/* line 160, ../scss/main.scss */
+/* line 172, ../scss/main.scss */
 #video_transmissions p {
   margin-bottom: 2em;
 }
-/* line 163, ../scss/main.scss */
+/* line 175, ../scss/main.scss */
 #video_transmissions h3 {
   margin: 0.5em 0 1em 0;
   text-align: center;
@@ -7942,34 +7988,34 @@ audio {
 /*****************************************************************
 						ENLISTMENT FORM 
 *****************************************************************/
-/* line 173, ../scss/main.scss */
+/* line 185, ../scss/main.scss */
 form .row {
   padding-top: 2em;
 }
 
-/* line 177, ../scss/main.scss */
+/* line 189, ../scss/main.scss */
 form .row .row {
   padding-top: 0;
 }
 
-/* line 182, ../scss/main.scss */
+/* line 194, ../scss/main.scss */
 .required:after {
   content: " *";
   color: #c00808;
 }
 
-/* line 188, ../scss/main.scss */
+/* line 200, ../scss/main.scss */
 .division_title {
   display: block;
   text-align: center;
 }
 
-/* line 193, ../scss/main.scss */
+/* line 205, ../scss/main.scss */
 input[type=radio] {
   display: none;
 }
 
-/* line 197, ../scss/main.scss */
+/* line 209, ../scss/main.scss */
 input[type=radio] + label img {
   display: block;
   max-width: 100%;
@@ -7977,7 +8023,7 @@ input[type=radio] + label img {
   opacity: 0.5;
 }
 
-/* line 202, ../scss/main.scss */
+/* line 214, ../scss/main.scss */
 input[type=radio]:checked + label img {
   display: block;
   max-width: 100%;
@@ -7985,7 +8031,7 @@ input[type=radio]:checked + label img {
   opacity: 1;
 }
 
-/* line 211, ../scss/main.scss */
+/* line 223, ../scss/main.scss */
 #enlist_button {
   display: block;
   margin: 0 auto;

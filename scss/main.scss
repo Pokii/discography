@@ -23,19 +23,21 @@
 	border-radius: 0.25em;
 }
 
-// @mixin left-img {
-// 	margin: 0 2em 0.5em 0;
-// 	@media #{$small-only} {
-// 		margin: 1em 2em 1em 0;
-// 	}
-// }
+@mixin center-img {
+	float: none;
+	display: block;
+	margin: 1em auto;
+}
 
-// @mixin right-img {
-// 	margin: 0 0 0.5em 1.5em;
-// 	@media #{$small-only} {
-// 		margin: 1em auto 2em auto;
-// 	}
-// }
+@mixin left-img {
+	float: left;
+	margin: 0 2em 0.5em 0;
+}
+
+@mixin right-img {
+	float: right;
+	margin: 0 0 0.5em 1.5em;
+}
 
 /*****************************************************************
 					OFF-CANVAS NAVIGATION 
@@ -85,34 +87,44 @@ h3 {
 *****************************************************************/
 
 .home-img-sm {
-	display: block;
-	margin: 1em auto;
+	@include center-img;
 }
 
 .home-img-md {
-	// @include left-img;
+	@include left-img;
 }
 
 /*****************************************************************
 							ABOUT
 *****************************************************************/
 
-.dr-steel {
-	// @include left-img;
-	height: 300px;
+.dr-steel-sm {
+	@include left-img;
+	max-width: 50%;
+}
+
+.dr-steel-md {
+	@include left-img;
+	max-width: 40%;
 }
 
 .tsu-logo {
-	// @include left-img;
+	@include center-img;
+	@media #{$medium-up} {
+		@include left-img;
+	}
 }
 
 .nurse-image {
 	height: 300px;
-	// @include left-img;
+	@include left-img;
 }
 
 .propaganda {
-	// @include right-img;
+	@include right-img;
+	@media #{$small-only} {
+		@include center-img;
+	}
 }
 
 /*****************************************************************
