@@ -27,6 +27,7 @@
 	float: none;
 	display: block;
 	margin: 1em auto;
+	margin-bottom: 2em;
 }
 
 @mixin left-img {
@@ -98,6 +99,8 @@ h3 {
 							ABOUT
 *****************************************************************/
 
+/****************** Dr. Steel ******************/
+
 .dr-steel-sm {
 	@include left-img;
 	max-width: 50%;
@@ -107,6 +110,34 @@ h3 {
 	@include left-img;
 	max-width: 40%;
 }
+
+.bio-img-sm {
+	@include center-img;
+}
+
+.bio-img-md {
+	@include right-img;
+	max-width: 60%;
+	@media #{$large-up} {
+		max-width: 40%;
+	}
+}
+
+.music-img-md {
+	@include left-img;
+	max-width: 60%;
+}
+
+.style-img-md {
+	@include right-img;
+	max-width: 50%;
+	@media #{$large-up} {
+		max-width: 30%;
+	}
+}
+
+
+/************ Army of Toy Soldiers ************/
 
 .tsu-logo {
 	@include center-img;

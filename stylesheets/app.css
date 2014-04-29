@@ -7807,7 +7807,7 @@ th.hide-for-touch {
 /*****************************************************************
 					OFF-CANVAS NAVIGATION 
 *****************************************************************/
-/* line 46, ../scss/main.scss */
+/* line 47, ../scss/main.scss */
 i {
   margin-right: .5em;
   font-size: 1.5em;
@@ -7816,39 +7816,39 @@ i {
 /*****************************************************************
 						GLOBAL STYLES 
 *****************************************************************/
-/* line 55, ../scss/main.scss */
+/* line 56, ../scss/main.scss */
 h2 {
   margin: 1em 0;
 }
-/* line 57, ../scss/main.scss */
+/* line 58, ../scss/main.scss */
 h2:first-of-type {
   margin-top: 0;
 }
 
-/* line 62, ../scss/main.scss */
+/* line 63, ../scss/main.scss */
 h3 {
   margin: 1.5em 0 0.5em 0;
 }
 
-/* line 67, ../scss/main.scss */
+/* line 68, ../scss/main.scss */
 .hero-banner img {
   display: block;
   margin: 0 auto;
   padding: 3% 10%;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 67, ../scss/main.scss */
+  /* line 68, ../scss/main.scss */
   .hero-banner img {
     margin-top: 2em;
   }
 }
 
-/* line 77, ../scss/main.scss */
+/* line 78, ../scss/main.scss */
 .main-content {
   padding: 1em;
 }
 
-/* line 81, ../scss/main.scss */
+/* line 82, ../scss/main.scss */
 .tabs-content h2 {
   margin-top: 1em;
 }
@@ -7856,14 +7856,15 @@ h3 {
 /*****************************************************************
 							HOME
 *****************************************************************/
-/* line 89, ../scss/main.scss */
+/* line 90, ../scss/main.scss */
 .home-img-sm {
   float: none;
   display: block;
   margin: 1em auto;
+  margin-bottom: 2em;
 }
 
-/* line 93, ../scss/main.scss */
+/* line 94, ../scss/main.scss */
 .home-img-md {
   float: left;
   margin: 0 2em 0.5em 0;
@@ -7872,81 +7873,126 @@ h3 {
 /*****************************************************************
 							ABOUT
 *****************************************************************/
-/* line 101, ../scss/main.scss */
+/****************** Dr. Steel ******************/
+/* line 104, ../scss/main.scss */
 .dr-steel-sm {
   float: left;
   margin: 0 2em 0.5em 0;
   max-width: 50%;
 }
 
-/* line 106, ../scss/main.scss */
+/* line 109, ../scss/main.scss */
 .dr-steel-md {
   float: left;
   margin: 0 2em 0.5em 0;
   max-width: 40%;
 }
 
-/* line 111, ../scss/main.scss */
+/* line 114, ../scss/main.scss */
+.bio-img-sm {
+  float: none;
+  display: block;
+  margin: 1em auto;
+  margin-bottom: 2em;
+}
+
+/* line 118, ../scss/main.scss */
+.bio-img-md {
+  float: right;
+  margin: 0 0 0.5em 1.5em;
+  max-width: 60%;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 118, ../scss/main.scss */
+  .bio-img-md {
+    max-width: 40%;
+  }
+}
+
+/* line 126, ../scss/main.scss */
+.music-img-md {
+  float: left;
+  margin: 0 2em 0.5em 0;
+  max-width: 60%;
+}
+
+/* line 131, ../scss/main.scss */
+.style-img-md {
+  float: right;
+  margin: 0 0 0.5em 1.5em;
+  max-width: 50%;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 131, ../scss/main.scss */
+  .style-img-md {
+    max-width: 30%;
+  }
+}
+
+/************ Army of Toy Soldiers ************/
+/* line 142, ../scss/main.scss */
 .tsu-logo {
   float: none;
   display: block;
   margin: 1em auto;
+  margin-bottom: 2em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 111, ../scss/main.scss */
+  /* line 142, ../scss/main.scss */
   .tsu-logo {
     float: left;
     margin: 0 2em 0.5em 0;
   }
 }
 
-/* line 118, ../scss/main.scss */
+/* line 149, ../scss/main.scss */
 .nurse-image {
   height: 300px;
   float: left;
   margin: 0 2em 0.5em 0;
 }
 
-/* line 123, ../scss/main.scss */
+/* line 154, ../scss/main.scss */
 .propaganda {
   float: right;
   margin: 0 0 0.5em 1.5em;
 }
 @media only screen and (max-width: 40em) {
-  /* line 123, ../scss/main.scss */
+  /* line 154, ../scss/main.scss */
   .propaganda {
     float: none;
     display: block;
     margin: 1em auto;
+    margin-bottom: 2em;
   }
 }
 
 /*****************************************************************
 						DISCOGRAPHY
 *****************************************************************/
-/* line 134, ../scss/main.scss */
+/* line 165, ../scss/main.scss */
 .album_title {
   margin: 0.5em 0 1em 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 134, ../scss/main.scss */
+  /* line 165, ../scss/main.scss */
   .album_title {
     text-align: center;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 134, ../scss/main.scss */
+  /* line 165, ../scss/main.scss */
   .album_title {
     margin: 0 0 1em 0;
   }
 }
 
-/* line 144, ../scss/main.scss */
+/* line 175, ../scss/main.scss */
 .track_list {
   margin-top: 1em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 144, ../scss/main.scss */
+  /* line 175, ../scss/main.scss */
   .track_list {
     margin-top: 0;
   }
@@ -7955,18 +8001,18 @@ h3 {
 /*****************************************************************
 						AUDIO TRANSMISSIONS 
 *****************************************************************/
-/* line 155, ../scss/main.scss */
+/* line 186, ../scss/main.scss */
 .audio_list {
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 160, ../scss/main.scss */
+/* line 191, ../scss/main.scss */
 audio {
   width: 100%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 160, ../scss/main.scss */
+  /* line 191, ../scss/main.scss */
   audio {
     width: 97%;
   }
@@ -7975,11 +8021,11 @@ audio {
 /*****************************************************************
 						VIDEO TRANSMISSIONS 
 *****************************************************************/
-/* line 172, ../scss/main.scss */
+/* line 203, ../scss/main.scss */
 #video_transmissions p {
   margin-bottom: 2em;
 }
-/* line 175, ../scss/main.scss */
+/* line 206, ../scss/main.scss */
 #video_transmissions h3 {
   margin: 0.5em 0 1em 0;
   text-align: center;
@@ -7988,34 +8034,34 @@ audio {
 /*****************************************************************
 						ENLISTMENT FORM 
 *****************************************************************/
-/* line 185, ../scss/main.scss */
+/* line 216, ../scss/main.scss */
 form .row {
   padding-top: 2em;
 }
 
-/* line 189, ../scss/main.scss */
+/* line 220, ../scss/main.scss */
 form .row .row {
   padding-top: 0;
 }
 
-/* line 194, ../scss/main.scss */
+/* line 225, ../scss/main.scss */
 .required:after {
   content: " *";
   color: #c00808;
 }
 
-/* line 200, ../scss/main.scss */
+/* line 231, ../scss/main.scss */
 .division_title {
   display: block;
   text-align: center;
 }
 
-/* line 205, ../scss/main.scss */
+/* line 236, ../scss/main.scss */
 input[type=radio] {
   display: none;
 }
 
-/* line 209, ../scss/main.scss */
+/* line 240, ../scss/main.scss */
 input[type=radio] + label img {
   display: block;
   max-width: 100%;
@@ -8023,7 +8069,7 @@ input[type=radio] + label img {
   opacity: 0.5;
 }
 
-/* line 214, ../scss/main.scss */
+/* line 245, ../scss/main.scss */
 input[type=radio]:checked + label img {
   display: block;
   max-width: 100%;
@@ -8031,7 +8077,7 @@ input[type=radio]:checked + label img {
   opacity: 1;
 }
 
-/* line 223, ../scss/main.scss */
+/* line 254, ../scss/main.scss */
 #enlist_button {
   display: block;
   margin: 0 auto;
