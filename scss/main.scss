@@ -23,6 +23,20 @@
 	border-radius: 0.25em;
 }
 
+// @mixin left-img {
+// 	margin: 0 2em 0.5em 0;
+// 	@media #{$small-only} {
+// 		margin: 1em 2em 1em 0;
+// 	}
+// }
+
+// @mixin right-img {
+// 	margin: 0 0 0.5em 1.5em;
+// 	@media #{$small-only} {
+// 		margin: 1em auto 2em auto;
+// 	}
+// }
+
 /*****************************************************************
 					OFF-CANVAS NAVIGATION 
 *****************************************************************/
@@ -52,6 +66,9 @@ h3 {
 		display: block;
 		margin: 0 auto;
 		padding: 3% 10%;
+		@media #{$medium-up} {
+			margin-top: 2em;
+		}
 	}
 }
 
@@ -67,17 +84,35 @@ h3 {
 							HOME
 *****************************************************************/
 
-.home-image {
-	margin: 0 1.5em 0.5em 0;
+.home-img-sm {
+	display: block;
+	margin: 1em auto;
+}
+
+.home-img-md {
+	// @include left-img;
 }
 
 /*****************************************************************
 							ABOUT
 *****************************************************************/
 
+.dr-steel {
+	// @include left-img;
+	height: 300px;
+}
+
+.tsu-logo {
+	// @include left-img;
+}
+
 .nurse-image {
 	height: 300px;
-	margin: 0 1.5em 0.5em 0;
+	// @include left-img;
+}
+
+.propaganda {
+	// @include right-img;
 }
 
 /*****************************************************************
@@ -145,11 +180,8 @@ form .row .row {
 
 .required {
 	&:after {
-		// position: absolute;
 		content: " *";
-		// font-size: 1.5em;
 		color: $primary-color;
-		// top: -0.3em;
 	}
 }
 
