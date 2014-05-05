@@ -3410,7 +3410,7 @@ form .row textarea.columns {
 /* line 332, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 label {
   font-size: 0.875rem;
-  color: #4d4d4d;
+  color: white;
   cursor: pointer;
   display: block;
   font-weight: normal;
@@ -3431,7 +3431,7 @@ label.inline {
 /* line 336, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 label small {
   text-transform: capitalize;
-  color: #676767;
+  color: white;
 }
 
 /* line 342, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -3442,12 +3442,12 @@ select::-ms-expand {
 @-moz-document url-prefix() {
   /* line 347, ../bower_components/foundation/scss/foundation/components/_forms.scss */
   select {
-    background: #fafafa;
+    background: #444444;
   }
 
   /* line 348, ../bower_components/foundation/scss/foundation/components/_forms.scss */
   select:hover {
-    background: #f3f3f3;
+    background: #555555;
   }
 }
 /* Attach elements to the beginning or end of an input */
@@ -3523,10 +3523,10 @@ select::-ms-expand {
 /* Separate prefix and postfix styles when on span or label so buttons keep their own */
 /* line 364, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 span.prefix, label.prefix {
-  background: #f2f2f2;
+  background: #111111;
   border-right: none;
-  color: #333333;
-  border-color: #cccccc;
+  color: white;
+  border-color: black;
 }
 /* line 365, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 span.prefix.radius, label.prefix.radius {
@@ -3537,10 +3537,10 @@ span.prefix.radius, label.prefix.radius {
 
 /* line 367, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 span.postfix, label.postfix {
-  background: #f2f2f2;
+  background: #111111;
   border-left: none;
-  color: #333333;
-  border-color: #cccccc;
+  color: white;
+  border-color: black;
 }
 /* line 368, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 span.postfix.radius, label.postfix.radius {
@@ -3566,11 +3566,11 @@ input[type="time"],
 input[type="url"],
 textarea {
   -webkit-appearance: none;
-  background-color: white;
+  background-color: #444444;
   font-family: inherit;
-  border: 1px solid #cccccc;
+  border: 1px solid #363636;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.75);
+  color: #999999;
   display: block;
   font-size: 0.875rem;
   margin: 0 0 1rem 0;
@@ -3597,8 +3597,8 @@ input[type="tel"]:focus,
 input[type="time"]:focus,
 input[type="url"]:focus,
 textarea:focus {
-  box-shadow: 0 0 5px #999999;
-  border-color: #999999;
+  box-shadow: 0 0 5px #292929;
+  border-color: #292929;
 }
 /* line 124, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="text"]:focus,
@@ -3615,8 +3615,8 @@ input[type="tel"]:focus,
 input[type="time"]:focus,
 input[type="url"]:focus,
 textarea:focus {
-  background: #fafafa;
-  border-color: #999999;
+  background: #434343;
+  border-color: #292929;
   outline: none;
 }
 /* line 131, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -3647,7 +3647,7 @@ input[type="url"][disabled], fieldset[disabled]
 input[type="url"],
 textarea[disabled], fieldset[disabled]
 textarea {
-  background-color: #dddddd;
+  background-color: #666666;
 }
 /* line 391, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="text"].radius,
@@ -3682,11 +3682,11 @@ textarea[rows] {
 /* line 406, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 select {
   -webkit-appearance: none !important;
-  background-color: #fafafa;
+  background-color: #444444;
   background-image: url("data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iM3B4IiB2aWV3Qm94PSIwIDAgNiAzIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2IDMiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwb2x5Z29uIHBvaW50cz0iNS45OTIsMCAyLjk5MiwzIC0wLjAwOCwwICIvPjwvc3ZnPg==");
   background-repeat: no-repeat;
   background-position: 97% center;
-  border: 1px solid #cccccc;
+  border: 1px solid #363636;
   padding: 0.5rem;
   font-size: 0.875rem;
   border-radius: 0;
@@ -3698,8 +3698,8 @@ select.radius {
 }
 /* line 317, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 select:hover {
-  background-color: #f3f3f3;
-  border-color: #999999;
+  background-color: #555555;
+  border-color: #292929;
 }
 
 /* Adjust margin for form elements below */
@@ -3804,7 +3804,7 @@ span.error, small.error {
 }
 /* line 473, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error > label > small {
-  color: #676767;
+  color: white;
   background: transparent;
   padding: 0;
   text-transform: capitalize;
@@ -8108,24 +8108,48 @@ form .row .row {
   padding-top: 0;
 }
 
-/* line 274, ../scss/main.scss */
+/* line 273, ../scss/main.scss */
+label {
+  font-family: "Market Deco", Helvetica, Arial, sans-serif;
+}
+
+/* line 278, ../scss/main.scss */
+::-webkit-input-placeholder {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+/* line 282, ../scss/main.scss */
+.enlist_require {
+  float: right;
+}
+/* line 284, ../scss/main.scss */
+.enlist_require span {
+  color: #c00808;
+}
+
+/* line 290, ../scss/main.scss */
 .required:after {
   content: " *";
   color: #c00808;
 }
 
-/* line 280, ../scss/main.scss */
+/* line 296, ../scss/main.scss */
+select {
+  color: #999;
+}
+
+/* line 300, ../scss/main.scss */
 .division_title {
   display: block;
   text-align: center;
 }
 
-/* line 285, ../scss/main.scss */
+/* line 305, ../scss/main.scss */
 input[type=radio] {
   display: none;
 }
 
-/* line 289, ../scss/main.scss */
+/* line 309, ../scss/main.scss */
 input[type=radio] + label img {
   display: block;
   max-width: 100%;
@@ -8133,7 +8157,7 @@ input[type=radio] + label img {
   opacity: 0.5;
 }
 
-/* line 294, ../scss/main.scss */
+/* line 314, ../scss/main.scss */
 input[type=radio]:checked + label img {
   display: block;
   max-width: 100%;
@@ -8141,7 +8165,18 @@ input[type=radio]:checked + label img {
   opacity: 1;
 }
 
-/* line 303, ../scss/main.scss */
+/* line 319, ../scss/main.scss */
+.comments {
+  margin-top: 1em;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 319, ../scss/main.scss */
+  .comments {
+    margin-top: 0;
+  }
+}
+
+/* line 326, ../scss/main.scss */
 #enlist_button {
   display: block;
   margin: 0 auto;

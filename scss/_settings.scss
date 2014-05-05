@@ -537,6 +537,14 @@ $accordion-navigation-font-family: $header-font-family;
 // $input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 // $input-include-glowing-effect: true;
 
+$form-label-font-color: #FFF;
+$input-font-color: #999;
+$input-bg-color: #444;
+$input-focus-bg-color: scale-color(#444, $lightness: -2%);
+$input-border-color: scale-color(#444, $lightness: -20%);
+$input-focus-border-color: scale-color(#444, $lightness: -40%);
+$input-disabled-bg: #666;
+
 // We use these to style the fieldset border and spacing.
 // $fieldset-border-style: solid;
 // $fieldset-border-width: 1px;
@@ -558,6 +566,9 @@ $accordion-navigation-font-family: $header-font-family;
 // $input-prefix-font-color: #333;
 // $input-prefix-font-color-alt: #fff;
 
+$input-prefix-bg: #111;
+$input-prefix-border-color: #000;
+
 // We use these to style the error states for inputs and labels
 // $input-error-message-padding: rem-calc(6 9 9);
 // $input-error-message-top: -1px;
@@ -574,6 +585,9 @@ $accordion-navigation-font-family: $header-font-family;
 // Select variables
 // $select-bg-color: #fafafa;
 // $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%);
+
+$select-bg-color: #444;
+$select-hover-bg-color: #555;
 
 // Inline Lists
 

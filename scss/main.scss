@@ -270,11 +270,31 @@ form .row .row {
 	padding-top: 0;
 }
 
+label {
+	font-family: $header-font-family;
+}
+
+// Make a mixin!
+::-webkit-input-placeholder {
+	font-family: $body-font-family;
+}
+
+.enlist_require {
+	float: right;
+	span {
+		color: $primary-color;
+	}
+}
+
 .required {
 	&:after {
 		content: " *";
 		color: $primary-color;
 	}
+}
+
+select {
+	color: #999;
 }
 
 .division_title {
@@ -296,8 +316,11 @@ input[type=radio]:checked +label img {
 	opacity: 1;
 }
 
-textarea {
-	// margin-top: 1.5em;
+.comments {
+	margin-top: 1em;
+	@media #{$large-up} {
+		margin-top: 0;
+	}
 }
 
 #enlist_button {
