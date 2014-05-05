@@ -231,10 +231,14 @@ header {
 .audio_list {
 	list-style-type: none;
 	margin-left: 0;
+	span {
+		color: #FFF;
+	}
 }
 
 audio {
 	width: 100%;
+	margin: 0.5em 0;
 	@media #{$small-only} {
 		width: 97%;
 	}
