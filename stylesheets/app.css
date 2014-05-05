@@ -7853,10 +7853,30 @@ h3 {
   margin-top: 1em;
 }
 
+/* line 86, ../scss/main.scss */
+.tabs dd {
+  display: table;
+}
+@media only screen and (max-width: 40em) {
+  /* line 86, ../scss/main.scss */
+  .tabs dd {
+    width: 50%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 92, ../scss/main.scss */
+  .tabs dd a {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+  }
+}
+
 /*****************************************************************
 							HOME
 *****************************************************************/
-/* line 90, ../scss/main.scss */
+/* line 105, ../scss/main.scss */
 .home-img-sm {
   float: none;
   display: block;
@@ -7864,7 +7884,7 @@ h3 {
   margin-bottom: 2em;
 }
 
-/* line 94, ../scss/main.scss */
+/* line 109, ../scss/main.scss */
 .home-img-md {
   float: left;
   margin: 0 2em 0.5em 0;
@@ -7874,21 +7894,21 @@ h3 {
 							ABOUT
 *****************************************************************/
 /****************** Dr. Steel ******************/
-/* line 104, ../scss/main.scss */
+/* line 119, ../scss/main.scss */
 .dr-steel-sm {
   float: left;
   margin: 0 2em 0.5em 0;
   max-width: 50%;
 }
 
-/* line 109, ../scss/main.scss */
+/* line 124, ../scss/main.scss */
 .dr-steel-md {
   float: left;
   margin: 0 2em 0.5em 0;
   max-width: 40%;
 }
 
-/* line 114, ../scss/main.scss */
+/* line 129, ../scss/main.scss */
 .bio-img-sm {
   float: none;
   display: block;
@@ -7896,41 +7916,49 @@ h3 {
   margin-bottom: 2em;
 }
 
-/* line 118, ../scss/main.scss */
+/* line 133, ../scss/main.scss */
 .bio-img-md {
   float: right;
   margin: 0 0 0.5em 1.5em;
   max-width: 60%;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 118, ../scss/main.scss */
+  /* line 133, ../scss/main.scss */
   .bio-img-md {
     max-width: 40%;
   }
 }
 
-/* line 126, ../scss/main.scss */
+/* line 141, ../scss/main.scss */
+.music-img-sm {
+  float: none;
+  display: block;
+  margin: 1em auto;
+  margin-bottom: 2em;
+}
+
+/* line 145, ../scss/main.scss */
 .music-img-md {
   float: left;
   margin: 0 2em 0.5em 0;
   max-width: 60%;
 }
 
-/* line 131, ../scss/main.scss */
+/* line 150, ../scss/main.scss */
 .style-img-md {
   float: right;
   margin: 0 0 0.5em 1.5em;
   max-width: 50%;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 131, ../scss/main.scss */
+  /* line 150, ../scss/main.scss */
   .style-img-md {
     max-width: 30%;
   }
 }
 
 /************ Army of Toy Soldiers ************/
-/* line 142, ../scss/main.scss */
+/* line 161, ../scss/main.scss */
 .tsu-logo {
   float: none;
   display: block;
@@ -7938,27 +7966,27 @@ h3 {
   margin-bottom: 2em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 142, ../scss/main.scss */
+  /* line 161, ../scss/main.scss */
   .tsu-logo {
     float: left;
     margin: 0 2em 0.5em 0;
   }
 }
 
-/* line 149, ../scss/main.scss */
+/* line 168, ../scss/main.scss */
 .nurse-image {
   height: 300px;
   float: left;
   margin: 0 2em 0.5em 0;
 }
 
-/* line 154, ../scss/main.scss */
+/* line 173, ../scss/main.scss */
 .propaganda {
   float: right;
   margin: 0 0 0.5em 1.5em;
 }
 @media only screen and (max-width: 40em) {
-  /* line 154, ../scss/main.scss */
+  /* line 173, ../scss/main.scss */
   .propaganda {
     float: none;
     display: block;
@@ -7970,29 +7998,29 @@ h3 {
 /*****************************************************************
 						DISCOGRAPHY
 *****************************************************************/
-/* line 165, ../scss/main.scss */
+/* line 184, ../scss/main.scss */
 .album_title {
   margin: 0.5em 0 1em 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 165, ../scss/main.scss */
+  /* line 184, ../scss/main.scss */
   .album_title {
     text-align: center;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 165, ../scss/main.scss */
+  /* line 184, ../scss/main.scss */
   .album_title {
     margin: 0 0 1em 0;
   }
 }
 
-/* line 175, ../scss/main.scss */
+/* line 194, ../scss/main.scss */
 .track_list {
   margin-top: 1em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 175, ../scss/main.scss */
+  /* line 194, ../scss/main.scss */
   .track_list {
     margin-top: 0;
   }
@@ -8001,18 +8029,18 @@ h3 {
 /*****************************************************************
 						AUDIO TRANSMISSIONS 
 *****************************************************************/
-/* line 186, ../scss/main.scss */
+/* line 205, ../scss/main.scss */
 .audio_list {
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 191, ../scss/main.scss */
+/* line 210, ../scss/main.scss */
 audio {
   width: 100%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 191, ../scss/main.scss */
+  /* line 210, ../scss/main.scss */
   audio {
     width: 97%;
   }
@@ -8021,11 +8049,11 @@ audio {
 /*****************************************************************
 						VIDEO TRANSMISSIONS 
 *****************************************************************/
-/* line 203, ../scss/main.scss */
+/* line 222, ../scss/main.scss */
 #video_transmissions p {
   margin-bottom: 2em;
 }
-/* line 206, ../scss/main.scss */
+/* line 225, ../scss/main.scss */
 #video_transmissions h3 {
   margin: 0.5em 0 1em 0;
   text-align: center;
@@ -8034,34 +8062,34 @@ audio {
 /*****************************************************************
 						ENLISTMENT FORM 
 *****************************************************************/
-/* line 216, ../scss/main.scss */
+/* line 235, ../scss/main.scss */
 form .row {
   padding-top: 2em;
 }
 
-/* line 220, ../scss/main.scss */
+/* line 239, ../scss/main.scss */
 form .row .row {
   padding-top: 0;
 }
 
-/* line 225, ../scss/main.scss */
+/* line 244, ../scss/main.scss */
 .required:after {
   content: " *";
   color: #c00808;
 }
 
-/* line 231, ../scss/main.scss */
+/* line 250, ../scss/main.scss */
 .division_title {
   display: block;
   text-align: center;
 }
 
-/* line 236, ../scss/main.scss */
+/* line 255, ../scss/main.scss */
 input[type=radio] {
   display: none;
 }
 
-/* line 240, ../scss/main.scss */
+/* line 259, ../scss/main.scss */
 input[type=radio] + label img {
   display: block;
   max-width: 100%;
@@ -8069,7 +8097,7 @@ input[type=radio] + label img {
   opacity: 0.5;
 }
 
-/* line 245, ../scss/main.scss */
+/* line 264, ../scss/main.scss */
 input[type=radio]:checked + label img {
   display: block;
   max-width: 100%;
@@ -8077,7 +8105,7 @@ input[type=radio]:checked + label img {
   opacity: 1;
 }
 
-/* line 254, ../scss/main.scss */
+/* line 273, ../scss/main.scss */
 #enlist_button {
   display: block;
   margin: 0 auto;

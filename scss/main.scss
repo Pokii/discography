@@ -83,6 +83,21 @@ h3 {
 	margin-top: 1em;
 }
 
+.tabs dd {
+	display: table;
+	@media #{$small-only} {
+		width: 50%;
+		text-align: center;
+	}
+	a {
+		@media #{$small-only} {
+			display: table-cell;
+			vertical-align: middle;
+			height: 100%;
+		}
+	}
+}
+
 /*****************************************************************
 							HOME
 *****************************************************************/
@@ -121,6 +136,10 @@ h3 {
 	@media #{$large-up} {
 		max-width: 40%;
 	}
+}
+
+.music-img-sm {
+	@include center-img;
 }
 
 .music-img-md {
