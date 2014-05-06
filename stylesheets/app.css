@@ -6701,7 +6701,7 @@ p {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
-  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
 }
 /* line 219, ../bower_components/foundation/scss/foundation/components/_type.scss */
 p.lead {
@@ -6722,7 +6722,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-style: normal;
   color: white;
-  text-rendering: optimizePrecision;
+  text-rendering: geometricPrecision;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4;

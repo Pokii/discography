@@ -134,7 +134,7 @@ $primary-color: #C00808;
 
 $header-font-color: #FFF;
 $header-font-family: "Market Deco", Helvetica, Arial, sans-serif;
-$header-text-rendering: optimizePrecision;
+$header-text-rendering: geometricPrecision;
 
 // We use these to control header font sizes
 // $h1-font-size: rem-calc(44);
@@ -165,6 +165,8 @@ $header-text-rendering: optimizePrecision;
 // $paragraph-aside-line-height: 1.35;
 // $paragraph-aside-font-style: italic;
 // $paragraph-text-rendering: optimizeLegibility;
+
+$paragraph-text-rendering: geometricPrecision;
 
 // We use these to style <code> tags
 // $code-color: scale-color($alert-color, $lightness: -27%);
