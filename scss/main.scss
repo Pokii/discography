@@ -212,6 +212,10 @@ header {
 	}
 }
 
+.uniforms-image {
+	@include center-img;
+}
+
 .nurse-image {
 	height: 300px;
 	@include left-img;

@@ -8017,19 +8017,27 @@ h3 {
 }
 
 /* line 215, ../scss/main.scss */
+.uniforms-image {
+  float: none;
+  display: block;
+  margin: 1em auto;
+  margin-bottom: 2em;
+}
+
+/* line 219, ../scss/main.scss */
 .nurse-image {
   height: 300px;
   float: left;
   margin: 0 2em 0.5em 0;
 }
 
-/* line 220, ../scss/main.scss */
+/* line 224, ../scss/main.scss */
 .propaganda {
   float: right;
   margin: 0 0 0.5em 1.5em;
 }
 @media only screen and (max-width: 40em) {
-  /* line 220, ../scss/main.scss */
+  /* line 224, ../scss/main.scss */
   .propaganda {
     float: none;
     display: block;
@@ -8041,29 +8049,29 @@ h3 {
 /*****************************************************************
 						DISCOGRAPHY
 *****************************************************************/
-/* line 231, ../scss/main.scss */
+/* line 235, ../scss/main.scss */
 .album_title {
   margin: 0.5em 0 1em 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 231, ../scss/main.scss */
+  /* line 235, ../scss/main.scss */
   .album_title {
     text-align: center;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 231, ../scss/main.scss */
+  /* line 235, ../scss/main.scss */
   .album_title {
     margin: 0 0 1em 0;
   }
 }
 
-/* line 241, ../scss/main.scss */
+/* line 245, ../scss/main.scss */
 .track_list {
   margin-top: 1em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 241, ../scss/main.scss */
+  /* line 245, ../scss/main.scss */
   .track_list {
     margin-top: 0;
   }
@@ -8072,23 +8080,23 @@ h3 {
 /*****************************************************************
 						AUDIO TRANSMISSIONS 
 *****************************************************************/
-/* line 252, ../scss/main.scss */
+/* line 256, ../scss/main.scss */
 .audio_list {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 255, ../scss/main.scss */
+/* line 259, ../scss/main.scss */
 .audio_list span {
   color: #FFF;
 }
 
-/* line 260, ../scss/main.scss */
+/* line 264, ../scss/main.scss */
 audio {
   width: 100%;
   margin: 0.5em 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 260, ../scss/main.scss */
+  /* line 264, ../scss/main.scss */
   audio {
     width: 97%;
   }
@@ -8097,11 +8105,11 @@ audio {
 /*****************************************************************
 						VIDEO TRANSMISSIONS 
 *****************************************************************/
-/* line 273, ../scss/main.scss */
+/* line 277, ../scss/main.scss */
 #video_transmissions p {
   margin-bottom: 2em;
 }
-/* line 276, ../scss/main.scss */
+/* line 280, ../scss/main.scss */
 #video_transmissions h3 {
   margin: 0.5em 0 1em 0;
   text-align: center;
@@ -8110,37 +8118,37 @@ audio {
 /*****************************************************************
 						ENLISTMENT FORM 
 *****************************************************************/
-/* line 286, ../scss/main.scss */
+/* line 290, ../scss/main.scss */
 form .row {
   padding-top: 2em;
 }
 
-/* line 290, ../scss/main.scss */
+/* line 294, ../scss/main.scss */
 form .row .row {
   padding-top: 0;
 }
 
-/* line 294, ../scss/main.scss */
+/* line 298, ../scss/main.scss */
 .enlist_require {
   float: right;
 }
-/* line 296, ../scss/main.scss */
+/* line 300, ../scss/main.scss */
 .enlist_require span {
   color: #c00808;
 }
 
-/* line 302, ../scss/main.scss */
+/* line 306, ../scss/main.scss */
 .required:after {
   content: " *";
   color: #c00808;
 }
 
-/* line 308, ../scss/main.scss */
+/* line 312, ../scss/main.scss */
 select {
   color: #E6E6E6;
 }
 
-/* line 312, ../scss/main.scss */
+/* line 316, ../scss/main.scss */
 .label_title {
   font-family: "Market Deco", Helvetica, Arial, sans-serif;
 }
@@ -8162,12 +8170,12 @@ input:-ms-input-placeholder {
   color: #777;
 }
 
-/* line 322, ../scss/main.scss */
+/* line 326, ../scss/main.scss */
 input[type=radio] {
   display: none;
 }
 
-/* line 326, ../scss/main.scss */
+/* line 330, ../scss/main.scss */
 input[type=radio] + label img {
   display: block;
   max-width: 100%;
@@ -8175,7 +8183,7 @@ input[type=radio] + label img {
   opacity: 0.5;
 }
 
-/* line 331, ../scss/main.scss */
+/* line 335, ../scss/main.scss */
 input[type=radio]:checked + label img {
   display: block;
   max-width: 100%;
@@ -8183,12 +8191,12 @@ input[type=radio]:checked + label img {
   opacity: 1;
 }
 
-/* line 336, ../scss/main.scss */
+/* line 340, ../scss/main.scss */
 .divisions {
   margin-bottom: 1em;
 }
 
-/* line 340, ../scss/main.scss */
+/* line 344, ../scss/main.scss */
 .division_title {
   display: block;
   text-align: center;
@@ -8196,18 +8204,18 @@ input[type=radio]:checked + label img {
   margin: 0.75em 0;
 }
 
-/* line 347, ../scss/main.scss */
+/* line 351, ../scss/main.scss */
 .comments {
   margin-top: 1em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 347, ../scss/main.scss */
+  /* line 351, ../scss/main.scss */
   .comments {
     margin-top: 0;
   }
 }
 
-/* line 354, ../scss/main.scss */
+/* line 358, ../scss/main.scss */
 #enlist_button {
   display: block;
   margin: 0 auto;
