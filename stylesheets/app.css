@@ -3570,7 +3570,7 @@ textarea {
   font-family: inherit;
   border: 1px solid #363636;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  color: #999999;
+  color: #e6e6e6;
   display: block;
   font-size: 0.875rem;
   margin: 0 0 1rem 0;
@@ -7807,7 +7807,7 @@ th.hide-for-touch {
 /*****************************************************************
 					OFF-CANVAS NAVIGATION 
 *****************************************************************/
-/* line 47, ../scss/main.scss */
+/* line 63, ../scss/main.scss */
 i {
   margin-right: .5em;
   font-size: 1.5em;
@@ -7816,56 +7816,68 @@ i {
 /*****************************************************************
 						GLOBAL STYLES 
 *****************************************************************/
-/* line 56, ../scss/main.scss */
+/* line 44, ../scss/main.scss */
+::-moz-selection {
+  color: white;
+  background: #c00808;
+}
+
+/* line 47, ../scss/main.scss */
+::selection {
+  color: white;
+  background: #c00808;
+}
+
+/* line 77, ../scss/main.scss */
 h2 {
   margin: 1em 0;
 }
-/* line 58, ../scss/main.scss */
+/* line 79, ../scss/main.scss */
 h2:first-of-type {
   margin-top: 0;
 }
 
-/* line 63, ../scss/main.scss */
+/* line 84, ../scss/main.scss */
 h3 {
   margin: 1.5em 0 0.5em 0;
 }
 
-/* line 68, ../scss/main.scss */
+/* line 89, ../scss/main.scss */
 .hero-banner img {
   display: block;
   margin: 0 auto;
   padding: 3% 10%;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 68, ../scss/main.scss */
+  /* line 89, ../scss/main.scss */
   .hero-banner img {
     margin-top: 2em;
   }
 }
 
-/* line 78, ../scss/main.scss */
+/* line 99, ../scss/main.scss */
 .main-content {
   padding: 1em;
 }
 
-/* line 82, ../scss/main.scss */
+/* line 103, ../scss/main.scss */
 .tabs-content h2 {
   margin-top: 1em;
 }
 
-/* line 86, ../scss/main.scss */
+/* line 107, ../scss/main.scss */
 .tabs dd {
   display: table;
 }
 @media only screen and (max-width: 40em) {
-  /* line 86, ../scss/main.scss */
+  /* line 107, ../scss/main.scss */
   .tabs dd {
     width: 50%;
     text-align: center;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 92, ../scss/main.scss */
+  /* line 113, ../scss/main.scss */
   .tabs dd a {
     display: table-cell;
     vertical-align: middle;
@@ -7877,28 +7889,28 @@ h3 {
 						   HEADER 
 *****************************************************************/
 @media only screen and (max-width: 40em) {
-  /* line 106, ../scss/main.scss */
+  /* line 127, ../scss/main.scss */
   header h1 {
     font-size: 400%;
     text-align: center;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 106, ../scss/main.scss */
+  /* line 127, ../scss/main.scss */
   header h1 {
     font-size: 500%;
     margin: 12% auto;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 106, ../scss/main.scss */
+  /* line 127, ../scss/main.scss */
   header h1 {
     font-size: 700%;
     margin: 10% auto;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 120, ../scss/main.scss */
+  /* line 141, ../scss/main.scss */
   header a {
     vertical-align: top;
   }
@@ -7907,7 +7919,7 @@ h3 {
 /*****************************************************************
 							HOME
 *****************************************************************/
-/* line 131, ../scss/main.scss */
+/* line 152, ../scss/main.scss */
 .home-img-sm {
   float: none;
   display: block;
@@ -7915,7 +7927,7 @@ h3 {
   margin-bottom: 2em;
 }
 
-/* line 135, ../scss/main.scss */
+/* line 156, ../scss/main.scss */
 .home-img-md {
   float: left;
   margin: 0 2em 0.5em 0;
@@ -7925,21 +7937,21 @@ h3 {
 							ABOUT
 *****************************************************************/
 /****************** Dr. Steel ******************/
-/* line 145, ../scss/main.scss */
+/* line 166, ../scss/main.scss */
 .dr-steel-sm {
   float: left;
   margin: 0 2em 0.5em 0;
   max-width: 50%;
 }
 
-/* line 150, ../scss/main.scss */
+/* line 171, ../scss/main.scss */
 .dr-steel-md {
   float: left;
   margin: 0 2em 0.5em 0;
   max-width: 40%;
 }
 
-/* line 155, ../scss/main.scss */
+/* line 176, ../scss/main.scss */
 .bio-img-sm {
   float: none;
   display: block;
@@ -7947,20 +7959,20 @@ h3 {
   margin-bottom: 2em;
 }
 
-/* line 159, ../scss/main.scss */
+/* line 180, ../scss/main.scss */
 .bio-img-md {
   float: right;
   margin: 0 0 0.5em 1.5em;
   max-width: 60%;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 159, ../scss/main.scss */
+  /* line 180, ../scss/main.scss */
   .bio-img-md {
     max-width: 40%;
   }
 }
 
-/* line 167, ../scss/main.scss */
+/* line 188, ../scss/main.scss */
 .music-img-sm {
   float: none;
   display: block;
@@ -7968,28 +7980,28 @@ h3 {
   margin-bottom: 2em;
 }
 
-/* line 171, ../scss/main.scss */
+/* line 192, ../scss/main.scss */
 .music-img-md {
   float: left;
   margin: 0 2em 0.5em 0;
   max-width: 60%;
 }
 
-/* line 176, ../scss/main.scss */
+/* line 197, ../scss/main.scss */
 .style-img-md {
   float: right;
   margin: 0 0 0.5em 1.5em;
   max-width: 50%;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 176, ../scss/main.scss */
+  /* line 197, ../scss/main.scss */
   .style-img-md {
     max-width: 30%;
   }
 }
 
 /************ Army of Toy Soldiers ************/
-/* line 187, ../scss/main.scss */
+/* line 208, ../scss/main.scss */
 .tsu-logo {
   float: none;
   display: block;
@@ -7997,27 +8009,27 @@ h3 {
   margin-bottom: 2em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 187, ../scss/main.scss */
+  /* line 208, ../scss/main.scss */
   .tsu-logo {
     float: left;
     margin: 0 2em 0.5em 0;
   }
 }
 
-/* line 194, ../scss/main.scss */
+/* line 215, ../scss/main.scss */
 .nurse-image {
   height: 300px;
   float: left;
   margin: 0 2em 0.5em 0;
 }
 
-/* line 199, ../scss/main.scss */
+/* line 220, ../scss/main.scss */
 .propaganda {
   float: right;
   margin: 0 0 0.5em 1.5em;
 }
 @media only screen and (max-width: 40em) {
-  /* line 199, ../scss/main.scss */
+  /* line 220, ../scss/main.scss */
   .propaganda {
     float: none;
     display: block;
@@ -8029,29 +8041,29 @@ h3 {
 /*****************************************************************
 						DISCOGRAPHY
 *****************************************************************/
-/* line 210, ../scss/main.scss */
+/* line 231, ../scss/main.scss */
 .album_title {
   margin: 0.5em 0 1em 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 210, ../scss/main.scss */
+  /* line 231, ../scss/main.scss */
   .album_title {
     text-align: center;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 210, ../scss/main.scss */
+  /* line 231, ../scss/main.scss */
   .album_title {
     margin: 0 0 1em 0;
   }
 }
 
-/* line 220, ../scss/main.scss */
+/* line 241, ../scss/main.scss */
 .track_list {
   margin-top: 1em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 220, ../scss/main.scss */
+  /* line 241, ../scss/main.scss */
   .track_list {
     margin-top: 0;
   }
@@ -8060,23 +8072,23 @@ h3 {
 /*****************************************************************
 						AUDIO TRANSMISSIONS 
 *****************************************************************/
-/* line 231, ../scss/main.scss */
+/* line 252, ../scss/main.scss */
 .audio_list {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 234, ../scss/main.scss */
+/* line 255, ../scss/main.scss */
 .audio_list span {
   color: #FFF;
 }
 
-/* line 239, ../scss/main.scss */
+/* line 260, ../scss/main.scss */
 audio {
   width: 100%;
   margin: 0.5em 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 239, ../scss/main.scss */
+  /* line 260, ../scss/main.scss */
   audio {
     width: 97%;
   }
@@ -8085,11 +8097,11 @@ audio {
 /*****************************************************************
 						VIDEO TRANSMISSIONS 
 *****************************************************************/
-/* line 252, ../scss/main.scss */
+/* line 273, ../scss/main.scss */
 #video_transmissions p {
   margin-bottom: 2em;
 }
-/* line 255, ../scss/main.scss */
+/* line 276, ../scss/main.scss */
 #video_transmissions h3 {
   margin: 0.5em 0 1em 0;
   text-align: center;
@@ -8098,58 +8110,64 @@ audio {
 /*****************************************************************
 						ENLISTMENT FORM 
 *****************************************************************/
-/* line 265, ../scss/main.scss */
+/* line 286, ../scss/main.scss */
 form .row {
   padding-top: 2em;
 }
 
-/* line 269, ../scss/main.scss */
+/* line 290, ../scss/main.scss */
 form .row .row {
   padding-top: 0;
 }
 
-/* line 273, ../scss/main.scss */
-label {
-  font-family: "Market Deco", Helvetica, Arial, sans-serif;
-}
-
-/* line 278, ../scss/main.scss */
-::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-}
-
-/* line 282, ../scss/main.scss */
+/* line 294, ../scss/main.scss */
 .enlist_require {
   float: right;
 }
-/* line 284, ../scss/main.scss */
+/* line 296, ../scss/main.scss */
 .enlist_require span {
   color: #c00808;
 }
 
-/* line 290, ../scss/main.scss */
+/* line 302, ../scss/main.scss */
 .required:after {
   content: " *";
   color: #c00808;
 }
 
-/* line 296, ../scss/main.scss */
+/* line 308, ../scss/main.scss */
 select {
-  color: #999;
+  color: #E6E6E6;
 }
 
-/* line 300, ../scss/main.scss */
-.division_title {
-  display: block;
-  text-align: center;
+/* line 312, ../scss/main.scss */
+.label_title {
+  font-family: "Market Deco", Helvetica, Arial, sans-serif;
 }
 
-/* line 305, ../scss/main.scss */
+/* line 53, ../scss/main.scss */
+input::-webkit-input-placeholder {
+  color: #777;
+}
+/* line 54, ../scss/main.scss */
+input:-moz-placeholder {
+  color: #777;
+}
+/* line 55, ../scss/main.scss */
+input::-moz-placeholder {
+  color: #777;
+}
+/* line 56, ../scss/main.scss */
+input:-ms-input-placeholder {
+  color: #777;
+}
+
+/* line 322, ../scss/main.scss */
 input[type=radio] {
   display: none;
 }
 
-/* line 309, ../scss/main.scss */
+/* line 326, ../scss/main.scss */
 input[type=radio] + label img {
   display: block;
   max-width: 100%;
@@ -8157,7 +8175,7 @@ input[type=radio] + label img {
   opacity: 0.5;
 }
 
-/* line 314, ../scss/main.scss */
+/* line 331, ../scss/main.scss */
 input[type=radio]:checked + label img {
   display: block;
   max-width: 100%;
@@ -8165,18 +8183,31 @@ input[type=radio]:checked + label img {
   opacity: 1;
 }
 
-/* line 319, ../scss/main.scss */
+/* line 336, ../scss/main.scss */
+.divisions {
+  margin-bottom: 1em;
+}
+
+/* line 340, ../scss/main.scss */
+.division_title {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0.75em 0;
+}
+
+/* line 347, ../scss/main.scss */
 .comments {
   margin-top: 1em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 319, ../scss/main.scss */
+  /* line 347, ../scss/main.scss */
   .comments {
     margin-top: 0;
   }
 }
 
-/* line 326, ../scss/main.scss */
+/* line 354, ../scss/main.scss */
 #enlist_button {
   display: block;
   margin: 0 auto;

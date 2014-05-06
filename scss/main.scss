@@ -40,6 +40,22 @@
 	margin: 0 0 0.5em 1.5em;
 }
 
+@mixin selection {
+	::-moz-selection { 
+		@content; 
+	}
+	::selection { 
+		@content; 
+	}
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}  
+}
+
 /*****************************************************************
 					OFF-CANVAS NAVIGATION 
 *****************************************************************/
@@ -52,6 +68,11 @@ i {
 /*****************************************************************
 						GLOBAL STYLES 
 *****************************************************************/
+
+@include selection {
+	color: white;
+	background: $primary-color;
+}
 
 h2 {
 	margin: 1em 0;
@@ -270,15 +291,6 @@ form .row .row {
 	padding-top: 0;
 }
 
-label {
-	font-family: $header-font-family;
-}
-
-// Make a mixin!
-::-webkit-input-placeholder {
-	font-family: $body-font-family;
-}
-
 .enlist_require {
 	float: right;
 	span {
@@ -294,12 +306,17 @@ label {
 }
 
 select {
-	color: #999;
+	color: #E6E6E6;
 }
 
-.division_title {
-	display: block;
-	text-align: center;
+.label_title {
+	font-family: $header-font-family;
+}
+
+input {
+	@include placeholder {
+		color: #777;
+	}
 }
 
 input[type=radio] {
@@ -314,6 +331,17 @@ input[type=radio] +label img {
 input[type=radio]:checked +label img {
 	@include divisions;
 	opacity: 1;
+}
+
+.divisions {
+	margin-bottom: 1em;
+}
+
+.division_title {
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0.75em 0;
 }
 
 .comments {

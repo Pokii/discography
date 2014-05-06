@@ -90,7 +90,9 @@
                     <p>
                         For a limited time, give us your address and receive a set of free stickers and make your allegiance known!
                     </p>
-                    <p class="enlist_require"><span>*</span> = Required field</p>
+                    <div class="clearfix">
+                        <p class="enlist_require"><span>*</span> = Required field</p>
+                    </div>
 
                     <!-- ENLISTMENT FORM -->
                     <form id="enlist_form" action="success.html" method="get" autocomplete="on">
@@ -99,9 +101,9 @@
                             <!-- NAME, EMAIL -->
                             <div class="large-5 columns">
                                 <!-- TITLE -->
-                                <div class="small-3 columns">
+                                <div class="title small-3 columns">
                                     <label>
-                                        Title
+                                        <span class="label_title">Title</span>
                                         <select>
                                             <option value="dr.">Dr.</option>
                                             <option value="mr.">Mr.</option>
@@ -112,31 +114,31 @@
                                     </label>
                                 </div>
                                 <!-- FIRST NAME -->
-                                <div class="small-9 columns">
+                                <div class="first_name small-9 columns">
                                     <label>
-                                        <span class="required">First</span>
+                                        <span class="required label_title">First</span>
                                         <input type="text" placeholder="Phineas" required />
                                     </label>
                                 </div>
                                 <!-- MIDDLE NAME -->
-                                <div class="small-3 large-5 columns">
+                                <div class="middle_name small-3 large-5 columns">
                                     <label>
-                                        Middle
+                                        <span class="label_title">Middle</span>
                                         <input type="text" placeholder="Waldorf" />
                                     </label>
                                 </div>
                                 <!-- LAST NAME -->
-                                <div class="small-9 large-7 columns">
+                                <div class="last_name small-9 large-7 columns">
                                     <label>
-                                        <span class="required">Last</span>
+                                        <span class="required label_title">Last</span>
                                         <input type="text" placeholder="Steel" required />
                                     </label>
                                 </div>
      
-                                <div class="small-12 columns">
+                                <div class="email small-12 columns">
                                     <div class="row collapse">
                                         <label>
-                                            <span class="required">Email</span>
+                                            <span class="required label_title">Email</span>
                                         </label>
                                         <div class="small-10 columns">
                                             <input type="text" placeholder="drsteel@worlddominationtoys" />
@@ -152,21 +154,24 @@
                             <!-- ADDRESS -->
                             <div class="large-7 columns">
                                 <!-- ADDRESS -->
-                                <div class="large-12 columns">
-                                    <label>Address
+                                <div class="address large-12 columns">
+                                    <label>
+                                        <span class="label_title">Address</span>
                                         <input type="text" placeholder="12 Electric Ave." />
                                     </label>
                                 </div>
                                 <!-- CITY -->
-                                <div class="large-12 columns">
-                                    <label>City
+                                <div class="city large-12 columns">
+                                    <label>
+                                        <span class="label_title">City</span>
                                         <input type="text" required />
                                     </label>
                                 </div>
                                 <!-- STATE -->
-                                <div class="small-8 columns">
+                                <div class="state small-8 columns">
                                     <div class="row collapse">
-                                        <label>State
+                                        <label>
+                                            <span class="label_title">State</span>
                                             <select name="state">
                                                 <option value="select your state" selected disabled>Select your state</option>
                                                 <option value="AL">Alabama</option>
@@ -232,7 +237,8 @@
                                 </div>
                                 <!-- ZIP -->
                                 <div class="small-4 columns">
-                                    <label>Zip
+                                    <label>
+                                        <span class="label_title">Zip</span>
                                         <input type="text" />
                                     </label>
                                 </div>
@@ -244,16 +250,16 @@
                         <!-- DIVISION, COMMENTS ROW -->
                         <div class="row">
                             <!-- DIVISION -->
-                            <div class="large-6 columns">
+                            <div class="divisions large-6 columns">
                                 <label>
-                                    <span class="required">Choose your division</span>
+                                    <span class="required label_title">Choose your division</span>
                                 </label>
                                 <div class="row collapse">
                                     <!-- NURSE -->
                                     <div class="small-6 columns">
                                         <input type="radio" name="division" value="nurse" id="nurse" />
                                         <label for="nurse">
-                                            <span class="division_title">Nurse</span>
+                                            <span class="division_title label_title">Nurse</span>
                                             <img src="img/nurse.png" alt="Nurse">
                                         </label>
                                     </div>
@@ -261,7 +267,7 @@
                                     <div class="small-6 columns">
                                         <input type="radio" name="division" value="scout" id="scout" />
                                         <label for="scout">
-                                            <span class="division_title">Scout</span>
+                                            <span class="division_title label_title">Scout</span>
                                             <img src="img/scout.png" alt="Scout">
                                         </label>
                                     </div>
@@ -272,8 +278,8 @@
                             <!-- COMMENTS -->
                             <div class="comments large-6 columns">
                                 <label>
-                                    Comments
-                                    <textarea name="comments" id="comments" cols="30" rows="13"></textarea>
+                                    <span class="label_title">Comments</span>
+                                    <textarea name="comments" id="comments" cols="30" rows="16"></textarea>
                                 </label>
                             </div>
                             <!-- END COMMENTS -->
